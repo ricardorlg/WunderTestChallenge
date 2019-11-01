@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Calculate Tips for Amounts" skipped="0" tests="5" time="208.04" timestamp="2019-11-01 06:58:12"><testcase name="Calculate Tips using default Percentage"/><testcase name="Calculate Tips using a defined Percentage"/></testsuite>

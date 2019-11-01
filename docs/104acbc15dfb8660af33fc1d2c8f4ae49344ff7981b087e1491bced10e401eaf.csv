@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Manage employees information","Create a new Employee information","SUCCESS","2019-11-01T18:57:58.209+01:00[Europe/Paris]","0.0","6.58"
+"Manage employees information","Get employee Information","SUCCESS","2019-11-01T18:58:04.793+01:00[Europe/Paris]","0.0","1.3"
+"Manage employees information","Delete Employee Information","SUCCESS","2019-11-01T18:58:06.1+01:00[Europe/Paris]","0.0","1.71"

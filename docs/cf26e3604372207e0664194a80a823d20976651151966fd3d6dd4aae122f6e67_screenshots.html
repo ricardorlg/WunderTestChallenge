@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Wunder Test Automation Project Exercise</span>
+                <span class="projectsubtitle">Candidate: Ricardo Larrahondo</span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="db62b1e2147802ca1a4c1d081bef4257463856caba71aa3760c56b5585b1d5cb.html">Calculate Tips For Amounts</a></span>
+                > <span class="truncate-60"><a
+                    href="cf26e3604372207e0664194a80a823d20976651151966fd3d6dd4aae122f6e67.html">Calculate Tips using a defined Percentage </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-11-2019 18:59</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Calculate Tips For Amounts </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="216b0bb453eb5cfeffd7f2f81ed1d3112e33ed3ba98409491a34aa4d46a171a5.html">Mobile
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Calculate Tips using a defined Percentage
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Tomas wants to know the total amount to pay with Tips included<br>And he has defined the tip percentage to be &lt;percentage&gt;%<br>When he calculates the total amount for &lt;amount_without_tip&gt;<br>Then He should see that the total amount is the expected one</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="139f7404cb4ec85b5d461ebb27852f28b84b868731f4aba6821c970cae86ef6b.png" title=" Example: {percentage=10.5871, amount_without_tip=1000}" width="1920"/>
+                <img src="139f7404cb4ec85b5d461ebb27852f28b84b868731f4aba6821c970cae86ef6b.png" title=" Given Tomas wants to know the total amount to pay with Tips included" width="1920"/>
+                <img src="139f7404cb4ec85b5d461ebb27852f28b84b868731f4aba6821c970cae86ef6b.png" title=" And he has defined the tip percentage to be 10.5871%" width="1920"/>
+                <img src="139f7404cb4ec85b5d461ebb27852f28b84b868731f4aba6821c970cae86ef6b.png" title=" Tomas sets the tip percentage to be **10.5871**%" width="1920"/>
+                <img src="139f7404cb4ec85b5d461ebb27852f28b84b868731f4aba6821c970cae86ef6b.png" title=" Tomas clicks on Settings menu option" width="1920"/>
+                <img src="30de29c42f5ba1a48a71dd49668428fb0c581b29063834ad1d4259c91b2c4b30.png" title=" Tomas clicks on Settings menu option (completed)" width="1920"/>
+                <img src="52dd01973c2e8a50d371a1716b334e70c90d30adbeae4092fd79194fa46d857b.png" title=" Tomas enters '10.5871' into Tip percentage input field" width="1920"/>
+                <img src="dd7dfd7b2364bc9d2bb534b78e273d22e1725d6d4e20cb097dbe8acb61cb6d77.png" title=" Tomas enters '10.5871' into Tip percentage input field (completed)" width="1920"/>
+                <img src="dd7dfd7b2364bc9d2bb534b78e273d22e1725d6d4e20cb097dbe8acb61cb6d77.png" title=" Tomas clicks on Save settings button" width="1920"/>
+                <img src="dd7dfd7b2364bc9d2bb534b78e273d22e1725d6d4e20cb097dbe8acb61cb6d77.png" title=" Tomas clicks on Save settings button (completed)" width="1920"/>
+                <img src="dd7dfd7b2364bc9d2bb534b78e273d22e1725d6d4e20cb097dbe8acb61cb6d77.png" title=" Tomas sets the tip percentage to be **10.5871**% (completed)" width="1920"/>
+                <img src="9f991fd78e710e0192095c29203c90a494bcb5ca729fcf45b7685f59ae49b0d0.png" title=" For Tomas: Then Tip percentage used should be '10.5871%'" width="1920"/>
+                <img src="b01d6431e866d7327611e24f41ace7fb277d9e5652a22bc28ff6900d2652c576.png" title=" For Tomas: Then Tip percentage used should be '10.5871%' (completed)" width="1920"/>
+                <img src="b01d6431e866d7327611e24f41ace7fb277d9e5652a22bc28ff6900d2652c576.png" title=" And he has defined the tip percentage to be 10.5871% (completed)" width="1920"/>
+                <img src="b01d6431e866d7327611e24f41ace7fb277d9e5652a22bc28ff6900d2652c576.png" title=" When he calculates the total amount for 1000" width="1920"/>
+                <img src="b01d6431e866d7327611e24f41ace7fb277d9e5652a22bc28ff6900d2652c576.png" title=" Tomas attempts to calculate the tips for an amount of **1000.0**" width="1920"/>
+                <img src="b01d6431e866d7327611e24f41ace7fb277d9e5652a22bc28ff6900d2652c576.png" title=" Tomas enters '1000.0' into Bill amount field" width="1920"/>
+                <img src="2c9c441cf33e9c90ff26b489b11eb21edb3cbe6335816711fca73c46b87e45ef.png" title=" Tomas enters '1000.0' into Bill amount field (completed)" width="1920"/>
+                <img src="2c9c441cf33e9c90ff26b489b11eb21edb3cbe6335816711fca73c46b87e45ef.png" title=" Tomas clicks on calculate tip button" width="1920"/>
+                <img src="2d1286bdeba8bf4a76e0f9aac603a9893ca17ea2bd76b864ea2ed70a642d9406.png" title=" Tomas clicks on calculate tip button (completed)" width="1920"/>
+                <img src="2d1286bdeba8bf4a76e0f9aac603a9893ca17ea2bd76b864ea2ed70a642d9406.png" title=" Tomas attempts to calculate the tips for an amount of **1000.0** (completed)" width="1920"/>
+                <img src="2d1286bdeba8bf4a76e0f9aac603a9893ca17ea2bd76b864ea2ed70a642d9406.png" title=" When he calculates the total amount for 1000 (completed)" width="1920"/>
+                <img src="2d1286bdeba8bf4a76e0f9aac603a9893ca17ea2bd76b864ea2ed70a642d9406.png" title=" Then He should see that the total amount is the expected one" width="1920"/>
+                <img src="2d1286bdeba8bf4a76e0f9aac603a9893ca17ea2bd76b864ea2ed70a642d9406.png" title=" For Tomas: Then Tips amount should be **'$105.87'**" width="1920"/>
+                <img src="ea7a2e0cf7bb05f801f9a09c89dcbaa1f5b09579dccd49c6ab6f56223e4237bf.png" title=" For Tomas: Then Tips amount should be **'$105.87'** (completed)" width="1920"/>
+                <img src="ea7a2e0cf7bb05f801f9a09c89dcbaa1f5b09579dccd49c6ab6f56223e4237bf.png" title=" For Tomas: Then Total amount should be **'$1105.87'**" width="1920"/>
+                <img src="2d1286bdeba8bf4a76e0f9aac603a9893ca17ea2bd76b864ea2ed70a642d9406.png" title=" For Tomas: Then Total amount should be **'$1105.87'** (completed)" width="1920"/>
+                <img src="2d1286bdeba8bf4a76e0f9aac603a9893ca17ea2bd76b864ea2ed70a642d9406.png" title=" Then He should see that the total amount is the expected one (completed)" width="1920"/>
+                <img src="2d1286bdeba8bf4a76e0f9aac603a9893ca17ea2bd76b864ea2ed70a642d9406.png" title=" Example: {percentage=10.5871, amount_without_tip=1000} (completed)" width="1920"/>
+                <img src="e0dd3f73882ddf4bf2ae017a4d97216b246773bc7d2bbc06504db54307724d89.png" title=" Example: {percentage=30, amount_without_tip=1540.25}" width="1920"/>
+                <img src="e0dd3f73882ddf4bf2ae017a4d97216b246773bc7d2bbc06504db54307724d89.png" title=" Given Tomas wants to know the total amount to pay with Tips included" width="1920"/>
+                <img src="e0dd3f73882ddf4bf2ae017a4d97216b246773bc7d2bbc06504db54307724d89.png" title=" And he has defined the tip percentage to be 30%" width="1920"/>
+                <img src="e0dd3f73882ddf4bf2ae017a4d97216b246773bc7d2bbc06504db54307724d89.png" title=" Tomas sets the tip percentage to be **30.0**%" width="1920"/>
+                <img src="e0dd3f73882ddf4bf2ae017a4d97216b246773bc7d2bbc06504db54307724d89.png" title=" Tomas clicks on Settings menu option" width="1920"/>
+                <img src="f27c2984568e9d13297f31305f323ee91f8a8abe89a297dbc48ca1793a72472a.png" title=" Tomas clicks on Settings menu option (completed)" width="1920"/>
+                <img src="ae98075a6ecdf5d7d64a4ff8e630fc6b68a331309cf500091a2109107fde8eeb.png" title=" Tomas enters '30.0' into Tip percentage input field" width="1920"/>
+                <img src="8523b8c9014f3389d496c12b44630ed1199b0f41292f3add4a17220002a59cfd.png" title=" Tomas enters '30.0' into Tip percentage input field (completed)" width="1920"/>
+                <img src="8523b8c9014f3389d496c12b44630ed1199b0f41292f3add4a17220002a59cfd.png" title=" Tomas clicks on Save settings button" width="1920"/>
+                <img src="8141604c0709bd8d1684167a0bf619cd8b08515885ce4b19e9f1bd97ca25dd0e.png" title=" Tomas clicks on Save settings button (completed)" width="1920"/>
+                <img src="8141604c0709bd8d1684167a0bf619cd8b08515885ce4b19e9f1bd97ca25dd0e.png" title=" Tomas sets the tip percentage to be **30.0**% (completed)" width="1920"/>
+                <img src="9e34b0a70a44f4e3b4401256ead3626bce3ca5282c8b775678ac3a397d06ed8b.png" title=" For Tomas: Then Tip percentage used should be '30.0%'" width="1920"/>
+                <img src="8555e9a483324c83a4be24b5cee26755a27abf4fa31496e99ce2c0471c3ba412.png" title=" For Tomas: Then Tip percentage used should be '30.0%' (completed)" width="1920"/>
+                <img src="8555e9a483324c83a4be24b5cee26755a27abf4fa31496e99ce2c0471c3ba412.png" title=" And he has defined the tip percentage to be 30% (completed)" width="1920"/>
+                <img src="8555e9a483324c83a4be24b5cee26755a27abf4fa31496e99ce2c0471c3ba412.png" title=" When he calculates the total amount for 1540.25" width="1920"/>
+                <img src="8555e9a483324c83a4be24b5cee26755a27abf4fa31496e99ce2c0471c3ba412.png" title=" Tomas attempts to calculate the tips for an amount of **1540.25**" width="1920"/>
+                <img src="8555e9a483324c83a4be24b5cee26755a27abf4fa31496e99ce2c0471c3ba412.png" title=" Tomas enters '1540.25' into Bill amount field" width="1920"/>
+                <img src="3f550c61483ca9e86cad49519da8c48e7e7213a67e7eeb839e4362df9a66de9b.png" title=" Tomas enters '1540.25' into Bill amount field (completed)" width="1920"/>
+                <img src="3f550c61483ca9e86cad49519da8c48e7e7213a67e7eeb839e4362df9a66de9b.png" title=" Tomas clicks on calculate tip button" width="1920"/>
+                <img src="23086829b1bbeb92fdc26401411c9da42059db5ba1b0f7a4044b5b83c37b7641.png" title=" Tomas clicks on calculate tip button (completed)" width="1920"/>
+                <img src="23086829b1bbeb92fdc26401411c9da42059db5ba1b0f7a4044b5b83c37b7641.png" title=" Tomas attempts to calculate the tips for an amount of **1540.25** (completed)" width="1920"/>
+                <img src="23086829b1bbeb92fdc26401411c9da42059db5ba1b0f7a4044b5b83c37b7641.png" title=" When he calculates the total amount for 1540.25 (completed)" width="1920"/>
+                <img src="23086829b1bbeb92fdc26401411c9da42059db5ba1b0f7a4044b5b83c37b7641.png" title=" Then He should see that the total amount is the expected one" width="1920"/>
+                <img src="23086829b1bbeb92fdc26401411c9da42059db5ba1b0f7a4044b5b83c37b7641.png" title=" For Tomas: Then Tips amount should be **'$462.08'**" width="1920"/>
+                <img src="13730f043c8e90ada9ae93b674440adf268ed746e86b5986a2e3e0e182d736b1.png" title=" For Tomas: Then Tips amount should be **'$462.08'** (completed)" width="1920"/>
+                <img src="13730f043c8e90ada9ae93b674440adf268ed746e86b5986a2e3e0e182d736b1.png" title=" For Tomas: Then Total amount should be **'$2002.33'**" width="1920"/>
+                <img src="13730f043c8e90ada9ae93b674440adf268ed746e86b5986a2e3e0e182d736b1.png" title=" For Tomas: Then Total amount should be **'$2002.33'** (completed)" width="1920"/>
+                <img src="13730f043c8e90ada9ae93b674440adf268ed746e86b5986a2e3e0e182d736b1.png" title=" Then He should see that the total amount is the expected one (completed)" width="1920"/>
+                <img src="13730f043c8e90ada9ae93b674440adf268ed746e86b5986a2e3e0e182d736b1.png" title=" Example: {percentage=30, amount_without_tip=1540.25} (completed)" width="1920"/>
+                <img src="10d10eb0177fde7aeac95f526bc39db39241db9475c2f8c2e7317f33910a8d3d.png" title=" Example: {percentage=25.1, amount_without_tip=1000}" width="1920"/>
+                <img src="10d10eb0177fde7aeac95f526bc39db39241db9475c2f8c2e7317f33910a8d3d.png" title=" Given Tomas wants to know the total amount to pay with Tips included" width="1920"/>
+                <img src="10d10eb0177fde7aeac95f526bc39db39241db9475c2f8c2e7317f33910a8d3d.png" title=" And he has defined the tip percentage to be 25.1%" width="1920"/>
+                <img src="10d10eb0177fde7aeac95f526bc39db39241db9475c2f8c2e7317f33910a8d3d.png" title=" Tomas sets the tip percentage to be **25.1**%" width="1920"/>
+                <img src="10d10eb0177fde7aeac95f526bc39db39241db9475c2f8c2e7317f33910a8d3d.png" title=" Tomas clicks on Settings menu option" width="1920"/>
+                <img src="192b78958b851b080703e601ca1e8d9362b9e58534c43590aa02212b9fcbf9c6.png" title=" Tomas clicks on Settings menu option (completed)" width="1920"/>
+                <img src="ea078df43cb7e2f6290c8a3fa632c344c40d25ed8ef2e98ba26f9508a15576ff.png" title=" Tomas enters '25.1' into Tip percentage input field" width="1920"/>
+                <img src="bef0cf9cdb50ed2ddad7f62cc76f7ca1315bfee87200a46c2d6c4381eb1563a8.png" title=" Tomas enters '25.1' into Tip percentage input field (completed)" width="1920"/>
+                <img src="bef0cf9cdb50ed2ddad7f62cc76f7ca1315bfee87200a46c2d6c4381eb1563a8.png" title=" Tomas clicks on Save settings button" width="1920"/>
+                <img src="bef0cf9cdb50ed2ddad7f62cc76f7ca1315bfee87200a46c2d6c4381eb1563a8.png" title=" Tomas clicks on Save settings button (completed)" width="1920"/>
+                <img src="bef0cf9cdb50ed2ddad7f62cc76f7ca1315bfee87200a46c2d6c4381eb1563a8.png" title=" Tomas sets the tip percentage to be **25.1**% (completed)" width="1920"/>
+                <img src="540fae818c89194e446e939edcaa9f9d578615209a0126c0f13e638b9baedc10.png" title=" For Tomas: Then Tip percentage used should be '25.1%'" width="1920"/>
+                <img src="8e9aef470045e8f989a3a7a65af6ce1667eae22b8046744fa147e6ab95646042.png" title=" For Tomas: Then Tip percentage used should be '25.1%' (completed)" width="1920"/>
+                <img src="8e9aef470045e8f989a3a7a65af6ce1667eae22b8046744fa147e6ab95646042.png" title=" And he has defined the tip percentage to be 25.1% (completed)" width="1920"/>
+                <img src="8e9aef470045e8f989a3a7a65af6ce1667eae22b8046744fa147e6ab95646042.png" title=" When he calculates the total amount for 1000" width="1920"/>
+                <img src="8e9aef470045e8f989a3a7a65af6ce1667eae22b8046744fa147e6ab95646042.png" title=" Tomas attempts to calculate the tips for an amount of **1000.0**" width="1920"/>
+                <img src="8e9aef470045e8f989a3a7a65af6ce1667eae22b8046744fa147e6ab95646042.png" title=" Tomas enters '1000.0' into Bill amount field" width="1920"/>
+                <img src="9dd48312770c9c278af59b75009392485271eb987c199365c5ceab76dcb57592.png" title=" Tomas enters '1000.0' into Bill amount field (completed)" width="1920"/>
+                <img src="9dd48312770c9c278af59b75009392485271eb987c199365c5ceab76dcb57592.png" title=" Tomas clicks on calculate tip button" width="1920"/>
+                <img src="93dbd7f6724c18ac2b359579e89f327b9bf042cb360cb49fcfcf9bfc33f5aaed.png" title=" Tomas clicks on calculate tip button (completed)" width="1920"/>
+                <img src="93dbd7f6724c18ac2b359579e89f327b9bf042cb360cb49fcfcf9bfc33f5aaed.png" title=" Tomas attempts to calculate the tips for an amount of **1000.0** (completed)" width="1920"/>
+                <img src="93dbd7f6724c18ac2b359579e89f327b9bf042cb360cb49fcfcf9bfc33f5aaed.png" title=" When he calculates the total amount for 1000 (completed)" width="1920"/>
+                <img src="93dbd7f6724c18ac2b359579e89f327b9bf042cb360cb49fcfcf9bfc33f5aaed.png" title=" Then He should see that the total amount is the expected one" width="1920"/>
+                <img src="93dbd7f6724c18ac2b359579e89f327b9bf042cb360cb49fcfcf9bfc33f5aaed.png" title=" For Tomas: Then Tips amount should be **'$251.00'**" width="1920"/>
+                <img src="7ffdaa8bd66516b3325c98ad86698123cf56366c02434d92c6b33c9176245f1c.png" title=" For Tomas: Then Tips amount should be **'$251.00'** (completed)" width="1920"/>
+                <img src="7ffdaa8bd66516b3325c98ad86698123cf56366c02434d92c6b33c9176245f1c.png" title=" For Tomas: Then Total amount should be **'$1251.00'**" width="1920"/>
+                <img src="93dbd7f6724c18ac2b359579e89f327b9bf042cb360cb49fcfcf9bfc33f5aaed.png" title=" For Tomas: Then Total amount should be **'$1251.00'** (completed)" width="1920"/>
+                <img src="93dbd7f6724c18ac2b359579e89f327b9bf042cb360cb49fcfcf9bfc33f5aaed.png" title=" Then He should see that the total amount is the expected one (completed)" width="1920"/>
+                <img src="93dbd7f6724c18ac2b359579e89f327b9bf042cb360cb49fcfcf9bfc33f5aaed.png" title=" Example: {percentage=25.1, amount_without_tip=1000} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

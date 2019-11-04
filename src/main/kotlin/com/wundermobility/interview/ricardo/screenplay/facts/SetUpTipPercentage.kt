@@ -2,13 +2,11 @@ package com.wundermobility.interview.ricardo.screenplay.facts
 
 import com.wundermobility.interview.ricardo.screenplay.tasks.mobile.SetTheTipPercentage
 import com.wundermobility.interview.ricardo.screenplay.ui.CalculateTipView
-import com.wundermobility.interview.ricardo.utils.round
 import net.serenitybdd.core.pages.WebElementState
 import net.serenitybdd.screenplay.Actor
 import net.serenitybdd.screenplay.GivenWhenThen.seeThat
 import net.serenitybdd.screenplay.facts.Fact
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers
-import net.serenitybdd.screenplay.questions.TheValue
 import net.serenitybdd.screenplay.questions.WebElementQuestion.the
 import net.serenitybdd.screenplay.questions.targets.TheTarget
 import net.serenitybdd.screenplay.waits.Wait

@@ -2,7 +2,6 @@ package com.wundermobility.interview.ricardo.screenplay.abilities
 
 import io.appium.java_client.android.AndroidDriver
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb
-import net.thucydides.core.steps.StepEventBus
 import net.thucydides.core.webdriver.WebDriverFacade
 import org.openqa.selenium.WebDriver
 

@@ -13,12 +13,16 @@ import net.thucydides.core.util.EnvironmentVariables
 
 
 class Hooks {
+
     private lateinit var environmentVariables: EnvironmentVariables
+
     @Before("@api", order = 0)
     fun setTheStageApiPlay() {
-        SerenityRest.setDefaultConfig(SerenityRest.config().objectMapperConfig(ObjectMapperConfig
-                .objectMapperConfig()
-                .jackson2ObjectMapperFactory(objectMapperFactory)))
+        SerenityRest.setDefaultConfig(SerenityRest
+                .config()
+                .objectMapperConfig(ObjectMapperConfig
+                        .objectMapperConfig()
+                        .jackson2ObjectMapperFactory(objectMapperFactory)))
         SerenityRest.enableLoggingOfRequestAndResponseIfValidationFails()
         SerenityRest.filters(Filter { requestSpec, responseSpec, ctx ->
             val response = ctx.next(requestSpec, responseSpec)
@@ -27,6 +31,7 @@ class Hooks {
         })
         OnStage.setTheStage(ApiActorsCast(environmentVariables))
     }
+
 
     @Before("@mobile", order = 0)
     fun setTheStageMobilePlay() {

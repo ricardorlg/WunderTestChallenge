@@ -14,11 +14,11 @@ import net.thucydides.core.annotations.Step
 open class RegisterEmployee(private val employeeInformation: EmployeeModel) : Task {
     @Step("{0} attempts to register a new Employee")
     override fun <T : Actor> performAs(actor: T) {
-        Serenity.recordReportData().withTitle("Employee Information").andContents(JsonHelper.objectMapper.writeValueAsString(employeeInformation))
+        Serenity.recordReportData().withTitle("Employee Information")
+                .andContents(JsonHelper.objectMapper.writeValueAsString(employeeInformation))
         actor.attemptsTo(
                 Post.to(EndPoints.REGISTER_EMPLOYEE_ENDPOINT.path).with { request ->
-                    request
-                            .contentType(ContentType.JSON)
+                    request.contentType(ContentType.JSON)
                             .body(employeeInformation)
 
 

@@ -32,17 +32,6 @@
             <name>bintray</name>
             <url>http://jcenter.bintray.com</url>
         </repository>
-        <repository>
-            <id>public</id>
-            <name>public</name>
-            <url>http://mvn.testinium.com/repository/public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -204,11 +193,6 @@
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
             <version>1.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.testinium.deviceinformation</groupId>
-            <artifactId>device-information</artifactId>
-            <version>1.0</version>
         </dependency>
     </dependencies>
     <build>

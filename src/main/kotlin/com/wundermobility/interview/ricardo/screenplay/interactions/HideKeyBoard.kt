@@ -2,7 +2,6 @@ package com.wundermobility.interview.ricardo.screenplay.interactions
 
 import com.wundermobility.interview.ricardo.screenplay.abilities.UseAMobileDevice
 import net.serenitybdd.markers.IsHidden
-import net.serenitybdd.markers.IsSilent
 import net.serenitybdd.screenplay.Actor
 import net.serenitybdd.screenplay.Performable
 
